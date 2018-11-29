@@ -6,8 +6,8 @@ cur = conn.cursor()
 
 
 '''游标对象'''
-with conn.cursor() as cur:
-    sql = '''select * from users;'''
+'''with conn.cursor() as cur:
+    sql = ''''''select * from users;''''''
     cur.execute(sql)
     #lines = cur.fetchall()#将还回一个字典
     #print(lines)
@@ -15,4 +15,4 @@ with conn.cursor() as cur:
         print(row)
         print(row[0],row[1])
 
-conn.commit()
+conn.commit()'''

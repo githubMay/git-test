@@ -1,7 +1,7 @@
 #!/usr/bin/env Python
 # coding=utf-8
 
-import db
+from .db import *
 
 def select_table(table, column, condition, value ):
     sql = "select " + column + " from " + table + " where " + condition + "='" + value + "'"
