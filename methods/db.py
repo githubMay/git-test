@@ -1,4 +1,5 @@
 import psycopg2
+print('start inquiring the information!')
 conn=psycopg2.connect(host="localhost",database="postgres",user="postgres",password="")
 '''conn=psycopg2.connect(host="localhost", user="postgres", passwd="", db="postgres", port=3306, charset="utf8")'''    #连接对象
 '''#print(conn)'''
