@@ -9,7 +9,8 @@ $(document).ready(function(){
             data:pd,
             cache:false,
             success:function(data){
-                alert(data);
+                $("body").html("<p>"+data+"</p>");
+                window.location.href = "http://blog.csdn.net/yusirxiaer";
             },
             error:function(){
                 alert("error!");
